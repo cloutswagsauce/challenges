@@ -1,0 +1,101 @@
+
+body {
+
+    font-size: 18px;
+font-family: 'Outfit', sans-serif;
+font-family: 'Poppins', sans-serif;
+background-color:hsl(217, 54%, 11%) ;
+width: 1440px;
+}
+
+.card {
+    background-color:hsl(216, 50%, 16%) ;
+    margin: 25px;
+}
+
+.eth {
+    color: hsl(178, 100%, 50%);
+}
+
+span.name {
+    color: white;
+    margin-left: 5px;
+}
+span.name:hover {
+color: aqua;
+cursor: pointer;
+}
+.title {
+    color: white;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.title:hover {
+    color: aqua;
+    cursor: pointer;
+}
+.time, .text {
+    color: hsl(215, 51%, 70%);
+}
+.text {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.card {
+    margin-left: 450px;
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    padding: 25px;
+
+}
+.card img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    
+    
+}
+.card img:hover  {
+    background: linear-gradient(to top, #3204fdba, #9907facc), url(https://picsum.photos/1280/853/?random=1) no-repeat top center;
+    cursor: pointer;
+}
+.eth img, .time img, .creator img {
+    width: 15px;
+    height: auto;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    border-bottom: grey 1px solid;
+}
+
+
+.eth img{
+    float: left;
+    margin-right: 15px;
+    
+    
+}
+.time img {
+    float: left;
+    margin-right: 15px;
+}
+.creator {
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+    font-size: 13px;
+}
+.creator img {
+    
+    margin: 10px;
+}
+
+.attribution {
+    text-align: center;
+    
+}
